@@ -2,7 +2,7 @@
 
 An Arduino-based line-following robot that also reads a binary pattern placed along its path and stops when the pattern matches a code typed on a keypad.
 
-Built as a team project (4 members) for the Microprocessors and Microcontrollers course (BECE204L) at VIT Chennai, November 2025.
+Course project for Microprocessors and Microcontrollers (BECE204L) at VIT Chennai, November 2025.
 
 ## What it does
 - Follows a black line on a white surface using two front IR sensors.
@@ -61,6 +61,8 @@ The motors run at different PWM speeds (left 132, right 180) and move in short s
 
 ## Code
 The Arduino sketch is in `keylinebot.ino`. It uses the Keypad library (install it from the Arduino IDE Library Manager).
+
+Note: this sketch was reconstructed from the project report (pin table, algorithm and code snippets), not copied from the original file. The turning functions and keypad entry method are assumed. Test it on the robot and adjust if needed.
 
 ## Team
 R. Abishek, N S Abhishek Vasanth Surya, Manikandan Madhan, Abijith T
